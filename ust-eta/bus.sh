@@ -5,18 +5,18 @@
 # $PWD
 
 
-if [[ "$BUSETA" == "" ]]; then
-echo "#buseta" >> ~/.zshrc
-echo 'export $BUSETA=$PWD' >> ~/.zshrc
-echo 'alias bus=$BUSETA/geteta.sh' >>~/.zshrc
-fi
+#if [[ "$BUSETA" == "" ]]; then
+#echo "#buseta" >> ~/.zshrc
+#echo 'export $BUSETA=$PWD' >> ~/.zshrc
+#echo 'alias bus=$BUSETA/geteta.sh' >>~/.zshrc
+#fi
 # if [[ "$SHELL" == '/bin/zsh']];then
 #     echo 'export APP=/opt/tinyos-2.x/apps' >> ~/.zshrc 
 # else
 #     echo 'export APP=/opt/tinyos-2.x/apps' >> ~/.bashrc
 # fi
 
-alias ustbus="bash $PWD/geteta.sh"
+#alias ustbus="bash $PWD/geteta.sh"
 r_flag=""
 
 printUsage() {
